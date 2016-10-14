@@ -98,6 +98,6 @@
                     80)]
         (fn [{:keys [sell-in]} prev-item]
           (= (:sell-in prev-item)
-             sell-in)))))
+             :not-gonna-work)))))
 
 (run-specs)
